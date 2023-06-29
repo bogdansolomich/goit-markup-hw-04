@@ -464,7 +464,7 @@ img {
 .active::after {
   width: 100%;
   height: 4px;
-  content: '';
+  content: "";
   background-color: var(--color-hover);
   position: absolute;
   bottom: -1px;
