@@ -584,7 +584,7 @@ img {
   pointer-events: none;
 }
 
-.modal-close:hover .icon-knopka {
+.modal-close:hover {
   fill: var(--hero-color);
   background-color: var(--color-hover);
   border: none;
