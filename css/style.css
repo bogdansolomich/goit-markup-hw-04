@@ -55,7 +55,6 @@ body {
   height: 100%;
   border: 1px solid var(--customers-block);
   border-radius: 4px;
-  padding: 16px 32px;
   color: var(--customers-block);
   fill: currentColor;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -269,7 +268,6 @@ img {
 
 .team-section,
 .customers-section {
-  background-color: var(--studio-color);
   padding: 120px 0;
 }
 
@@ -464,7 +462,7 @@ img {
 .active::after {
   width: 100%;
   height: 4px;
-  content: "";
+  content: '';
   background-color: var(--color-hover);
   position: absolute;
   bottom: -1px;
@@ -490,6 +488,16 @@ img {
 
 .perehid:hover .overlay-text {
   transform: translateY(0%);
+}
+
+.perehid:focus .overlay-text {
+  transform: translateY(0%);
+}
+
+.portfol-block:hover,
+.portfol-block:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .overlay-text {
@@ -567,27 +575,35 @@ img {
   pointer-events: none;
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover .icon-knopka {
+  fill: var(--hero-color);
   background-color: var(--color-hover);
   border: none;
-  color: var(--hero-color);
+}
+
+.modal-close:hover {
+  background-color: var(--color-hover);
+  border: none;
 }
 
 .icon-knopka {
-  fill: currentColor;
+  fill: var(--span-color);
   height: 8px;
   width: 8px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-knopka:hover,
-.icon-knopka:focus {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: currentColor;
-}
-
 .icon-customers {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.zagolovok {
+  font-weight: 500;
+  color: var(--span-color);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: left;
 }
