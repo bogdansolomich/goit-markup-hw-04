@@ -585,18 +585,8 @@ img {
   pointer-events: none;
 }
 
-.modal-close:hover {
+.modal-close:hover, .modal-close:focus {
   fill: var(--hero-color);
-  background-color: var(--color-hover);
-  border: none;
-}
-
-.modal-close:hover {
-  background-color: var(--color-hover);
-  border: none;
-}
-
-.modal-close:focus {
   background-color: var(--color-hover);
   border: none;
 }
@@ -608,12 +598,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-knopka:hover {
-  fill: #ffffff;
-}
-
-.icon-knopka:focus {
-  fill: #ffffff;
+.icon-knopka:hover, .icon-knopka:focus {
+  fill: var(--hero-color);
 }
 
 .icon-customers {
