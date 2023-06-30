@@ -560,6 +560,7 @@ img {
 }
 
 .modal-close {
+  fill: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
