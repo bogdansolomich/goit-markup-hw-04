@@ -597,7 +597,6 @@ img {
 
 .modal-close:hover .icon-knopka, .modal-close:focus .icon-knopka {
   fill: #FFFFFF;
-  background-color: var(--color-hover);
 }
 
 .modal-close:hover .modal-close:focus {
