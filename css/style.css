@@ -588,21 +588,21 @@ img {
   pointer-events: none;
 }
 
+.icon-knopka {
+  fill: #2E2F42;
+  height: 8px;
+  width: 8px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-close:hover .icon-knopka, .modal-close:focus .icon-knopka {
   fill: #FFFFFF;
   background-color: var(--color-hover);
 }
 
 .modal-close:hover .modal-close:focus {
-  background-color: var(--color-hover);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.icon-knopka {
-  fill: #2E2F42;
-  height: 8px;
-  width: 8px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #404BBF;
+  border: none;
 }
 
 .icon-customers {
