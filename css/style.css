@@ -590,7 +590,12 @@ img {
 
 .modal-close:hover .icon-knopka, .modal-close:focus .icon-knopka {
   fill: #FFFFFF;
-  border: none;
+  background-color: var(--color-hover);
+}
+
+.modal-close:hover .modal-close:focus {
+  background-color: var(--color-hover);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .icon-knopka {
